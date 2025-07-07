@@ -5,8 +5,8 @@ using UnityEngine;
 public class PlayerCtrl : MonoBehaviour
 {
     public Rigidbody2D rb;
-    public float speed = 400;
-    public float jumpForce = 500;
+    public float speed;
+    public float jumpForce;
     // Start is called before the first frame update
     void Start()
     {
